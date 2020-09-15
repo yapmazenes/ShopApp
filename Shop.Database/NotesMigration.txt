@@ -1,0 +1,7 @@
+﻿..\Shop\Shop.Database>dotnet ef --startup-project ..\Shop.UI migrations add StockOnHoldSessionId
+
+->Enter
+
+..\Shop\Shop.Database>dotnet ef --startup-project ..\Shop.UI database update
+
+->Enter
